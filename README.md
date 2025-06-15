@@ -56,8 +56,8 @@ npm run dev  # using nodemon
 
 | Route                   | Method | Auth | Description       |
 | ----------------------- | ------ | ---- | ----------------- |
-| `/api/auth/register`    | POST   | ❌    | Register user     |
-| `/api/auth/login`       | POST   | ❌    | Login user        |
+| `/api/auth/register`    | POST   | ✅    | Register user     |
+| `/api/auth/login`       | POST   | ✅    | Login user        |
 | `/api/tasks/`           | GET    | ✅    | Get all tasks     |
 | `/api/tasks/`           | POST   | ✅    | Create task       |
 | `/api/tasks/:id`        | PUT    | ✅    | Update task       |
